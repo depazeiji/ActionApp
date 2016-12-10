@@ -1,0 +1,73 @@
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.1.10 @ 2016-12-10T18:40:55.643Z"}
+{"level":"info","message":"--------------------------------------","timestamp":"192.168.1.10 @ 2016-12-10T18:40:55.763Z"}
+{"level":"info","message":"ACTIONHERO COMMAND >> start","timestamp":"192.168.1.10 @ 2016-12-10T18:40:55.764Z"}
+{"level":"info","message":"--------------------------------------","timestamp":"192.168.1.10 @ 2016-12-10T18:40:55.764Z"}
+{"level":"notice","message":"pid: 6435","timestamp":"192.168.1.10 @ 2016-12-10T18:40:55.766Z"}
+{"level":"notice","message":"server ID: 192.168.1.10","timestamp":"192.168.1.10 @ 2016-12-10T18:40:55.766Z"}
+{"level":"info","message":"actionhero member 192.168.1.10 has joined the cluster","timestamp":"192.168.1.10 @ 2016-12-10T18:40:55.774Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.1.10 @ 2016-12-10T18:40:55.780Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.1.10 @ 2016-12-10T18:40:55.790Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.1.10 @ 2016-12-10T18:40:56.639Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"192.168.1.10 @ 2016-12-10T18:40:56.639Z"}
+{"level":"notice","message":"Shutting down open servers and stopping task processing...","timestamp":"192.168.1.10 @ 2016-12-10T18:42:42.628Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.1.10 @ 2016-12-10T18:42:52.706Z"}
+{"level":"info","message":"--------------------------------------","timestamp":"192.168.1.10 @ 2016-12-10T18:42:52.821Z"}
+{"level":"info","message":"ACTIONHERO COMMAND >> generate action","timestamp":"192.168.1.10 @ 2016-12-10T18:42:52.821Z"}
+{"level":"info","message":"--------------------------------------","timestamp":"192.168.1.10 @ 2016-12-10T18:42:52.821Z"}
+{"level":"info","message":" - wrote file '/home/vagrant/app/actions/randomNumber.js'","timestamp":"192.168.1.10 @ 2016-12-10T18:42:52.822Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.1.10 @ 2016-12-10T18:43:20.074Z"}
+{"level":"info","message":"--------------------------------------","timestamp":"192.168.1.10 @ 2016-12-10T18:43:20.212Z"}
+{"level":"info","message":"ACTIONHERO COMMAND >> start","timestamp":"192.168.1.10 @ 2016-12-10T18:43:20.212Z"}
+{"level":"info","message":"--------------------------------------","timestamp":"192.168.1.10 @ 2016-12-10T18:43:20.212Z"}
+{"level":"notice","message":"pid: 6685","timestamp":"192.168.1.10 @ 2016-12-10T18:43:20.215Z"}
+{"level":"notice","message":"server ID: 192.168.1.10","timestamp":"192.168.1.10 @ 2016-12-10T18:43:20.216Z"}
+{"level":"info","message":"actionhero member 192.168.1.10 has joined the cluster","timestamp":"192.168.1.10 @ 2016-12-10T18:43:20.227Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.1.10 @ 2016-12-10T18:43:20.233Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.1.10 @ 2016-12-10T18:43:20.248Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.1.10 @ 2016-12-10T18:43:21.287Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"192.168.1.10 @ 2016-12-10T18:43:21.288Z"}
+{"to":"192.168.1.8","action":"randomNumber","params":"{\"action\":\"randomNumber\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"192.168.1.10 @ 2016-12-10T18:43:32.193Z"}
+{"to":"192.168.1.8","file":"{not found}","requestedFile":"favicon.ico","size":null,"duration":null,"success":false,"level":"info","message":"[ file @ web ]","timestamp":"192.168.1.10 @ 2016-12-10T18:43:32.644Z"}
+{"to":"192.168.1.8","file":"{not found}","requestedFile":"favicon.ico","size":null,"duration":null,"success":false,"level":"info","message":"[ file @ web ]","timestamp":"192.168.1.10 @ 2016-12-10T18:43:32.674Z"}
+{"to":"192.168.1.8","file":"/home/vagrant/app/public/index.html","requestedFile":"index.html","size":4786,"duration":9,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"192.168.1.10 @ 2016-12-10T18:43:42.715Z"}
+{"to":"192.168.1.8","file":"/home/vagrant/app/public/css/cosmo.css","requestedFile":"css/cosmo.css","size":125619,"duration":5,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"192.168.1.10 @ 2016-12-10T18:43:42.841Z"}
+{"to":"192.168.1.8","file":"/home/vagrant/app/public/javascript/actionheroClient.js","requestedFile":"javascript/actionheroClient.js","size":95929,"duration":2,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"192.168.1.10 @ 2016-12-10T18:43:42.844Z"}
+{"to":"192.168.1.8","file":"/home/vagrant/app/public/logo/actionhero.png","requestedFile":"logo/actionhero.png","size":142141,"duration":3,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"192.168.1.10 @ 2016-12-10T18:43:42.854Z"}
+{"to":"192.168.1.8","file":"{not found}","requestedFile":"favicon.ico","size":null,"duration":null,"success":false,"level":"info","message":"[ file @ web ]","timestamp":"192.168.1.10 @ 2016-12-10T18:43:43.304Z"}
+{"to":"192.168.1.8","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"192.168.1.10 @ 2016-12-10T18:43:45.536Z"}
+{"to":"192.168.1.8","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":56,"level":"info","message":"[ action @ web ]","timestamp":"192.168.1.10 @ 2016-12-10T18:43:45.596Z"}
+{"to":"192.168.1.8","file":"/home/vagrant/app/public/chat.html","requestedFile":"chat.html","size":4707,"duration":3,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"192.168.1.10 @ 2016-12-10T18:43:55.826Z"}
+{"to":"192.168.1.8","level":"info","message":"[server: websocket] new connection","timestamp":"192.168.1.10 @ 2016-12-10T18:43:56.211Z"}
+{"to":"192.168.1.8","action":"createChatRoom","params":"{\"name\":\"defaultRoom\",\"action\":\"createChatRoom\",\"apiVersion\":1}","duration":6,"level":"info","message":"[ action @ websocket ]","timestamp":"192.168.1.10 @ 2016-12-10T18:43:56.270Z"}
+{"to":"192.168.1.8","level":"info","message":"[server: websocket] connection closed","timestamp":"192.168.1.10 @ 2016-12-10T18:44:00.922Z"}
+{"to":"192.168.1.8","action":"randomNumber","params":"{\"action\":\"randomNumber\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"192.168.1.10 @ 2016-12-10T18:46:33.011Z"}
+{"to":"192.168.1.8","params":"{}","duration":3,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.1.10 @ 2016-12-10T18:47:12.457Z"}
+{"to":"192.168.1.8","params":"{}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.1.10 @ 2016-12-10T18:47:23.510Z"}
+{"to":"192.168.1.8","action":"randomNumber","params":"{\"action\":\"randomNumber\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"192.168.1.10 @ 2016-12-10T18:47:33.586Z"}
+{"to":"192.168.1.8","action":"randomNumber","params":"{\"action\":\"randomNumber\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"192.168.1.10 @ 2016-12-10T18:52:09.459Z"}
+{"to":"192.168.1.8","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"192.168.1.10 @ 2016-12-10T18:52:30.495Z"}
+{"to":"192.168.1.8","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":62,"level":"info","message":"[ action @ web ]","timestamp":"192.168.1.10 @ 2016-12-10T18:52:30.560Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.1.10 @ 2016-12-10T19:10:21.664Z"}
+{"level":"info","message":"--------------------------------------","timestamp":"192.168.1.10 @ 2016-12-10T19:10:21.794Z"}
+{"level":"info","message":"ACTIONHERO COMMAND >> start","timestamp":"192.168.1.10 @ 2016-12-10T19:10:21.795Z"}
+{"level":"info","message":"--------------------------------------","timestamp":"192.168.1.10 @ 2016-12-10T19:10:21.796Z"}
+{"level":"notice","message":"pid: 6833","timestamp":"192.168.1.10 @ 2016-12-10T19:10:21.798Z"}
+{"level":"notice","message":"server ID: 192.168.1.10","timestamp":"192.168.1.10 @ 2016-12-10T19:10:21.799Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.1.10 @ 2016-12-10T19:10:33.718Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.1.10 @ 2016-12-10T19:10:38.025Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.1.10 @ 2016-12-10T19:10:45.994Z"}
+{"level":"info","message":"--------------------------------------","timestamp":"192.168.1.10 @ 2016-12-10T19:10:46.114Z"}
+{"level":"info","message":"ACTIONHERO COMMAND >> start","timestamp":"192.168.1.10 @ 2016-12-10T19:10:46.115Z"}
+{"level":"info","message":"--------------------------------------","timestamp":"192.168.1.10 @ 2016-12-10T19:10:46.115Z"}
+{"level":"notice","message":"pid: 6863","timestamp":"192.168.1.10 @ 2016-12-10T19:10:46.118Z"}
+{"level":"notice","message":"server ID: 192.168.1.10","timestamp":"192.168.1.10 @ 2016-12-10T19:10:46.118Z"}
+{"level":"info","message":"actionhero member 192.168.1.10 has joined the cluster","timestamp":"192.168.1.10 @ 2016-12-10T19:10:46.125Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.1.10 @ 2016-12-10T19:11:43.564Z"}
+{"level":"info","message":"--------------------------------------","timestamp":"192.168.1.10 @ 2016-12-10T19:11:43.703Z"}
+{"level":"info","message":"ACTIONHERO COMMAND >> link","timestamp":"192.168.1.10 @ 2016-12-10T19:11:43.703Z"}
+{"level":"info","message":"--------------------------------------","timestamp":"192.168.1.10 @ 2016-12-10T19:11:43.704Z"}
+{"level":"info","message":"linking the plugin found at node_modules/ah-sequelize-plugin","timestamp":"192.168.1.10 @ 2016-12-10T19:11:43.705Z"}
+{"level":"info","message":" - creating directory '/home/vagrant/app/initializers/plugins'","timestamp":"192.168.1.10 @ 2016-12-10T19:11:43.707Z"}
+{"level":"info","message":" - creating linkfile '/home/vagrant/app/initializers/plugins/ah-sequelize-plugin.link'","timestamp":"192.168.1.10 @ 2016-12-10T19:11:43.708Z"}
+{"level":"info","message":" - wrote file '/home/vagrant/app/config/.sequelizerc'","timestamp":"192.168.1.10 @ 2016-12-10T19:11:43.714Z"}
+{"level":"alert","message":" - file '/home/vagrant/app/config/sequelize.js' already exists, skipping","timestamp":"192.168.1.10 @ 2016-12-10T19:11:43.715Z"}
