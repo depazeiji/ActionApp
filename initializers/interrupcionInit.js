@@ -33,10 +33,15 @@ module.exports = {
                     .catch(function (error) {
                         next(JSON.stringify(error), true);
                     });
+            },
+          getInterrupciones: function (next) {
+                api.sequelize.sequelize.query("SELECT DATE(fechaInicio) AS fecha, COUNT(*) AS cantidad FROM Interrupciones GROUP BY fecha;")
+                    .then(function (interrupciones) {
+                        next(interrupciones[0], false);
+                    });
             }
 
     };
-
     next()
   },
   start: function (api, next) {
