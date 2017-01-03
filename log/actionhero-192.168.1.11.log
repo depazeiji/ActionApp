@@ -1,0 +1,52 @@
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.1.11 @ 2017-01-03T03:26:42.401Z"}
+{"level":"info","message":"--------------------------------------","timestamp":"192.168.1.11 @ 2017-01-03T03:26:42.605Z"}
+{"level":"info","message":"ACTIONHERO COMMAND >> start","timestamp":"192.168.1.11 @ 2017-01-03T03:26:42.606Z"}
+{"level":"info","message":"--------------------------------------","timestamp":"192.168.1.11 @ 2017-01-03T03:26:42.607Z"}
+{"level":"notice","message":"pid: 6800","timestamp":"192.168.1.11 @ 2017-01-03T03:26:42.610Z"}
+{"level":"notice","message":"server ID: 192.168.1.11","timestamp":"192.168.1.11 @ 2017-01-03T03:26:42.610Z"}
+{"level":"info","message":"actionhero member 192.168.1.11 has joined the cluster","timestamp":"192.168.1.11 @ 2017-01-03T03:26:42.737Z"}
+{"level":"info","message":"Executing (default): SELECT NOW()","timestamp":"192.168.1.11 @ 2017-01-03T03:26:42.777Z"}
+{"level":"info","message":"Executing (default): SELECT * FROM SequelizeMeta","timestamp":"192.168.1.11 @ 2017-01-03T03:26:42.784Z"}
+{"level":"info","message":"Executing (default): CREATE TABLE IF NOT EXISTS `SequelizeMeta` (`name` VARCHAR(255) NOT NULL UNIQUE , UNIQUE `SequelizeMeta_name_unique` (`name`), PRIMARY KEY (`name`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE utf8_unicode_ci;","timestamp":"192.168.1.11 @ 2017-01-03T03:26:42.799Z"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `SequelizeMeta`","timestamp":"192.168.1.11 @ 2017-01-03T03:26:42.804Z"}
+{"level":"info","message":"Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;","timestamp":"192.168.1.11 @ 2017-01-03T03:26:42.828Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.1.11 @ 2017-01-03T03:26:42.853Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.1.11 @ 2017-01-03T03:26:42.869Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.1.11 @ 2017-01-03T03:26:44.253Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"192.168.1.11 @ 2017-01-03T03:26:44.254Z"}
+{"to":"192.168.1.8","file":"/home/vagrant/ActionApp/public/index.html","requestedFile":"index.html","size":4786,"duration":12,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"192.168.1.11 @ 2017-01-03T04:14:23.241Z"}
+{"to":"192.168.1.8","file":"/home/vagrant/ActionApp/public/css/cosmo.css","requestedFile":"css/cosmo.css","size":125619,"duration":4,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"192.168.1.11 @ 2017-01-03T04:14:23.266Z"}
+{"to":"192.168.1.8","file":"/home/vagrant/ActionApp/public/javascript/actionheroClient.js","requestedFile":"javascript/actionheroClient.js","size":95929,"duration":6,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"192.168.1.11 @ 2017-01-03T04:14:23.267Z"}
+{"to":"192.168.1.8","file":"/home/vagrant/ActionApp/public/logo/actionhero.png","requestedFile":"logo/actionhero.png","size":142141,"duration":9,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"192.168.1.11 @ 2017-01-03T04:14:23.334Z"}
+{"to":"192.168.1.8","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"192.168.1.11 @ 2017-01-03T04:14:24.372Z"}
+{"to":"192.168.1.8","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":69,"level":"info","message":"[ action @ web ]","timestamp":"192.168.1.11 @ 2017-01-03T04:14:24.447Z"}
+{"to":"192.168.1.8","file":"{not found}","requestedFile":"favicon.ico","size":null,"duration":null,"success":false,"level":"info","message":"[ file @ web ]","timestamp":"192.168.1.11 @ 2017-01-03T04:14:24.518Z"}
+{"level":"info","message":"Executing (default): SELECT DATE(fechaInicio) AS fecha, COUNT(*) AS cantidad FROM Interrupciones GROUP BY fecha;","timestamp":"192.168.1.11 @ 2017-01-03T04:15:18.570Z"}
+{"to":"192.168.1.8","action":"cantidadInterrupciones","params":"{\"apiVersion\":\"1\",\"action\":\"cantidadInterrupciones\"}","duration":46,"level":"info","message":"[ action @ web ]","timestamp":"192.168.1.11 @ 2017-01-03T04:15:18.576Z"}
+{"to":"192.168.1.8","file":"{not found}","requestedFile":"favicon.ico","size":null,"duration":null,"success":false,"level":"info","message":"[ file @ web ]","timestamp":"192.168.1.11 @ 2017-01-03T04:15:18.603Z"}
+{"level":"info","message":"Executing (default): SELECT DATE(fechaInicio) AS fecha, COUNT(*) AS cantidad FROM Interrupciones GROUP BY fecha;","timestamp":"192.168.1.11 @ 2017-01-03T04:15:44.962Z"}
+{"to":"192.168.1.8","action":"cantidadInterrupciones","params":"{\"apiVersion\":\"1\",\"action\":\"cantidadInterrupciones\"}","duration":12,"level":"info","message":"[ action @ web ]","timestamp":"192.168.1.11 @ 2017-01-03T04:15:44.964Z"}
+{"level":"info","message":"Executing (default): SELECT DATE(fechaInicio) AS fecha, COUNT(*) AS cantidad FROM Interrupciones GROUP BY fecha;","timestamp":"192.168.1.11 @ 2017-01-03T04:17:11.806Z"}
+{"to":"192.168.1.8","action":"cantidadInterrupciones","params":"{\"apiVersion\":\"1\",\"action\":\"cantidadInterrupciones\"}","duration":7,"level":"info","message":"[ action @ web ]","timestamp":"192.168.1.11 @ 2017-01-03T04:17:11.810Z"}
+{"level":"notice","message":"Shutting down open servers and stopping task processing...","timestamp":"192.168.1.11 @ 2017-01-03T04:17:13.267Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.1.11 @ 2017-01-03T04:17:15.878Z"}
+{"level":"info","message":"--------------------------------------","timestamp":"192.168.1.11 @ 2017-01-03T04:17:16.017Z"}
+{"level":"info","message":"ACTIONHERO COMMAND >> start","timestamp":"192.168.1.11 @ 2017-01-03T04:17:16.017Z"}
+{"level":"info","message":"--------------------------------------","timestamp":"192.168.1.11 @ 2017-01-03T04:17:16.017Z"}
+{"level":"notice","message":"pid: 6824","timestamp":"192.168.1.11 @ 2017-01-03T04:17:16.020Z"}
+{"level":"notice","message":"server ID: 192.168.1.11","timestamp":"192.168.1.11 @ 2017-01-03T04:17:16.021Z"}
+{"level":"info","message":"actionhero member 192.168.1.11 has joined the cluster","timestamp":"192.168.1.11 @ 2017-01-03T04:17:16.080Z"}
+{"level":"info","message":"Executing (default): SELECT NOW()","timestamp":"192.168.1.11 @ 2017-01-03T04:17:16.105Z"}
+{"level":"info","message":"Executing (default): SELECT * FROM SequelizeMeta","timestamp":"192.168.1.11 @ 2017-01-03T04:17:16.111Z"}
+{"level":"info","message":"Executing (default): CREATE TABLE IF NOT EXISTS `SequelizeMeta` (`name` VARCHAR(255) NOT NULL UNIQUE , UNIQUE `SequelizeMeta_name_unique` (`name`), PRIMARY KEY (`name`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE utf8_unicode_ci;","timestamp":"192.168.1.11 @ 2017-01-03T04:17:16.122Z"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `SequelizeMeta`","timestamp":"192.168.1.11 @ 2017-01-03T04:17:16.125Z"}
+{"level":"info","message":"Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;","timestamp":"192.168.1.11 @ 2017-01-03T04:17:16.135Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.1.11 @ 2017-01-03T04:17:16.152Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.1.11 @ 2017-01-03T04:17:16.161Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.1.11 @ 2017-01-03T04:17:16.938Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"192.168.1.11 @ 2017-01-03T04:17:16.939Z"}
+{"level":"info","message":"Executing (default): SELECT DATE(fechaInicio) AS fecha, COUNT(*) AS cantidad FROM Interrupciones GROUP BY fecha;","timestamp":"192.168.1.11 @ 2017-01-03T04:17:18.492Z"}
+{"to":"192.168.1.8","action":"cantidadInterrupciones","params":"{\"apiVersion\":\"1\",\"action\":\"cantidadInterrupciones\"}","duration":7,"level":"info","message":"[ action @ web ]","timestamp":"192.168.1.11 @ 2017-01-03T04:17:18.495Z"}
+{"level":"info","message":"Executing (default): SELECT DATE(fechaInicio) AS fecha, COUNT(*) AS cantidad FROM Interrupciones GROUP BY fecha;","timestamp":"192.168.1.11 @ 2017-01-03T04:18:54.751Z"}
+{"to":"192.168.1.8","action":"cantidadInterrupciones","params":"{\"apiVersion\":\"1\",\"action\":\"cantidadInterrupciones\"}","duration":12,"level":"info","message":"[ action @ web ]","timestamp":"192.168.1.11 @ 2017-01-03T04:18:54.790Z"}
+{"level":"notice","message":"Shutting down open servers and stopping task processing...","timestamp":"192.168.1.11 @ 2017-01-03T04:19:52.965Z"}

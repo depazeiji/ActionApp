@@ -22,22 +22,20 @@ exports.action = {
               } else {
                 var res = new Object();
                 //res["dataset"] = new Object();
-                var info = new Object();
-                info.seriesname = "Interrupciones";
-                info.data = [];
 
                 var dias = [];
                 var values = [];
                 for(var i=0; i<interrupciones.length; i++){
                   dias.push({"label": interrupciones[i].fecha});
-                  values.push({"value": interrupciones[i].cantidad});                  
-                
+                  values.push({"value": interrupciones[i].cantidad});
+
                 }
                  var dataset = [
-		   {
-		     "seriesname" : "Interrupciones",
-		     "data" : values
-		 ];
+		                {
+              		     "seriesname" : "Interrupciones",
+              		     "data" : values
+                     }
+              		 ];
                   res["dataset"] = dataset;
                   res["categories"] = dias;
                   data.response = res;

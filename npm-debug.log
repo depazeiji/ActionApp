@@ -1,5 +1,7 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'start' ]
+1 verbose cli [ '/opt/node-v6.9.2-linux-x64/bin/node',
+1 verbose cli   '/opt/node-v6.9.2-linux-x64/bin/npm',
+1 verbose cli   'start' ]
 2 info using npm@3.10.9
 3 info using node@v6.9.2
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
@@ -7,25 +9,25 @@
 6 silly lifecycle my_actionhero_project@0.0.1~prestart: no script for prestart, continuing
 7 info lifecycle my_actionhero_project@0.0.1~start: my_actionhero_project@0.0.1
 8 verbose lifecycle my_actionhero_project@0.0.1~start: unsafe-perm in lifecycle true
-9 verbose lifecycle my_actionhero_project@0.0.1~start: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/ubuntu/ActionApp/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
-10 verbose lifecycle my_actionhero_project@0.0.1~start: CWD: /home/ubuntu/ActionApp
+9 verbose lifecycle my_actionhero_project@0.0.1~start: PATH: /opt/node-v6.9.2-linux-x64/lib/node_modules/npm/bin/node-gyp-bin:/home/vagrant/ActionApp/node_modules/.bin:/home/vagrant/.gvm/bin:/home/vagrant/.jenv/shims:/home/vagrant/.jenv/bin:/home/vagrant/.gvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/vagrant/.rvm/bin:/home/vagrant/.rvm/bin:/opt/node-v6.9.2-linux-x64/bin
+10 verbose lifecycle my_actionhero_project@0.0.1~start: CWD: /home/vagrant/ActionApp
 11 silly lifecycle my_actionhero_project@0.0.1~start: Args: [ '-c', 'actionhero start' ]
 12 silly lifecycle my_actionhero_project@0.0.1~start: Returned: code: 1  signal: null
 13 info lifecycle my_actionhero_project@0.0.1~start: Failed to exec start script
 14 verbose stack Error: my_actionhero_project@0.0.1 start: `actionhero start`
 14 verbose stack Exit status 1
-14 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at EventEmitter.<anonymous> (/opt/node-v6.9.2-linux-x64/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
 14 verbose stack     at emitTwo (events.js:106:13)
 14 verbose stack     at EventEmitter.emit (events.js:191:7)
-14 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at ChildProcess.<anonymous> (/opt/node-v6.9.2-linux-x64/lib/node_modules/npm/lib/utils/spawn.js:40:14)
 14 verbose stack     at emitTwo (events.js:106:13)
 14 verbose stack     at ChildProcess.emit (events.js:191:7)
 14 verbose stack     at maybeClose (internal/child_process.js:877:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid my_actionhero_project@0.0.1
-16 verbose cwd /home/ubuntu/ActionApp
-17 error Linux 3.13.0-105-generic
-18 error argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+16 verbose cwd /home/vagrant/ActionApp
+17 error Linux 3.19.0-25-generic
+18 error argv "/opt/node-v6.9.2-linux-x64/bin/node" "/opt/node-v6.9.2-linux-x64/bin/npm" "start"
 19 error node v6.9.2
 20 error npm  v3.10.9
 21 error code ELIFECYCLE
