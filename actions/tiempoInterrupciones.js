@@ -15,7 +15,7 @@ exports.action = {
   },
 
   run: function (api, data, next) {
-            api.interrupcionInit.getInterrupciones(function (interrupciones, error) {
+            api.interrupcionInit.getTiemposInterrupciones(function (interrupciones, error) {
               if (error) {
                   data.response = interrupciones + "\n" + "Algun error";
                   next(error, true);
