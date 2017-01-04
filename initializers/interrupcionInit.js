@@ -35,7 +35,13 @@ module.exports = {
                     });
             },
           getInterrupciones: function (next) {
-                api.sequelize.sequelize.query("SELECT DATE(fechaInicio) AS fecha, COUNT(*) AS cantidad FROM Interrupciones GROUP BY fecha;")
+                api.sequelize.sequelize.query("SELECT DATE_FORMAT(fechaInicio,'%d/%m/%Y') AS fecha, COUNT(*) AS cantidad FROM Interrupciones GROUP BY fecha LIMIT 30;")
+                    .then(function (interrupciones) {
+                        next(interrupciones[0], false);
+                    });
+            },
+          getTiemposInterrupciones: function (next) {
+                api.sequelize.sequelize.query("SELECT DATE_FORMAT(fechaInicio,'%d/%m/%Y') AS fecha, SUM(TIMESTAMPDIFF(MINUTE,fechaFin,fechaInicio)) AS tiempo FROM Interrupciones GROUP BY fecha LIMIT 30;")
                     .then(function (interrupciones) {
                         next(interrupciones[0], false);
                     });
